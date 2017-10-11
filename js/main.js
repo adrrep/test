@@ -86,4 +86,12 @@ doc.text('DD/MM/', 149, 198.5); //TherapyEnd3Line1
 doc.text('YYYY', 151, 201.5); //TherapyEnd3Line2
 doc.text('DD/MM/', 149, 206.75); //TherapyEnd4Line1
 doc.text('YYYY', 151, 209.75); //TherapyEnd4Line2
+doc.text('REASONREASONREA', 167.5, 181); //Reason1Line1
+doc.text('REASONREASONREA', 167.5, 184); //Reason1Line2
+doc.text('REASONREASONREA', 167.5, 190); //Reason2Line1
+doc.text('REASONREASONREA', 167.5, 193); //Reason2Line2
+doc.text('REASONREASONREA', 167.5, 198.5); //Reason3Line1
+doc.text('REASONREASONREA', 167.5, 201.5); //Reason3Line2
+doc.text('REASONREASONREA', 167.5, 206.75); //Reason4Line1
+doc.text('REASONREASONREA', 167.5, 209.75); //Reason4Line2
 doc.save('temp.pdf');
