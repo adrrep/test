@@ -208,4 +208,11 @@ doc.rect(158.25, 124.3, 2, 2, 'F'); //SeriousCongenital
 doc.rect(158.25, 128.25, 2, 2, 'F'); //SeriousIntervention
 doc.rect(158.25, 139.75, 2, 2, 'F'); //SeriousOther
 doc.text('OTHEROTHE', 180.5, 141.25); //SeriousSpec
+doc.rect(109.8, 149.5, 2, 2, 'F'); //OutcomeFatal
+doc.rect(109.8, 153.35, 2, 2, 'F'); //OutcomeContinuing
+doc.rect(133.8, 149.5, 2, 2, 'F'); //OutcomeRecovering
+doc.rect(133.8, 153.35, 2, 2, 'F'); //OutcomeRecovered
+doc.rect(158.3, 149.5, 2, 2, 'F'); //OutcomeUnknown
+doc.rect(158.3, 153.35, 2, 2, 'F'); //OutcomeOther
+doc.text('OTHEROTHE', 180.5, 155.25); //OutcomeSpec
 doc.save('temp.pdf');
