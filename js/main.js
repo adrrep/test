@@ -134,4 +134,21 @@ doc.text('-', 182, 222.25); //ReactionReappeared1ReintroducedDose
 doc.text('-', 182, 226.25); //ReactionReappeared2ReintroducedDose
 doc.text('-', 182, 230.5); //ReactionReappeared3ReintroducedDose
 doc.text('-', 182, 234.75); //ReactionReappeared4ReintroducedDose
+doc.text('NAMENAMENAMENAMENA', 157, 246); //ReporterName
+doc.text('ADDRESSADDRESSADDRESSADDRESSADDRESSAD', 116, 250); //ReporterAddressLine1
+doc.text('ADDRESSADDRESSADDRESSADDRESSADDRESSAD', 116, 254.5); //ReporterAddressLine2
+doc.text('PINPIN', 132, 259); //ReporterPincode
+doc.setDrawColor(255);
+doc.setLineWidth(2);
+doc.line(162, 259, 197, 259);
+doc.setFontSize(8);
+doc.text('EMAILEMAILEMAILEMAILEL', 161.5, 257.5); //ReporterEmailLine1
+doc.text('EMAILEMAILEMAILEMAILEL', 161.5, 259.5); //ReporterEmailLine2
+doc.setFontSize(10);
+doc.text('PHONEPHONEPHONE', 160, 263.5); //ReporterPhone
+doc.text('SPECIALITYSP', 128, 268); //ReporterSpecialityLine1
+doc.text('SPECIALITYSP', 128, 271.5); //ReporterSpecialityLine2
+doc.text('OCCUPATIONOCCUPATION', 109, 282); //ReporterOccupationLine1
+doc.text('OCCUPATIONOCCUPATION', 109, 285.5); //ReporterOccupationLine2
+doc.text('DD/MM/YYYY', 164.5, 283.5); //DateOfReport
 doc.save('temp.pdf');
