@@ -126,10 +126,10 @@ doc.addImage(tick, 'PNG', 46, 227.5, 4, 4); //ReactionAbated3No
 doc.addImage(tick, 'PNG', 62, 227.5, 4, 4); //ReactionAbated3Unknown
 doc.addImage(tick, 'PNG', 77, 227.5, 4, 4); //ReactionAbated3NA
 doc.text('REDCD mg', 91, 230.5); //ReactionAbated3ReducedDose
-doc.addImage(tick, 'PNG', 31, 231.5, 4, 4); //ReactionAbated4Yes
-doc.addImage(tick, 'PNG', 46, 231.5, 4, 4); //ReactionAbated4No
-doc.addImage(tick, 'PNG', 62, 231.5, 4, 4); //ReactionAbated4Unknown
-doc.addImage(tick, 'PNG', 77, 231.5, 4, 4); //ReactionAbated4NA
+doc.addImage(tick, 'PNG', 31, 231.75, 4, 4); //ReactionAbated4Yes
+doc.addImage(tick, 'PNG', 46, 231.75, 4, 4); //ReactionAbated4No
+doc.addImage(tick, 'PNG', 62, 231.75, 4, 4); //ReactionAbated4Unknown
+doc.addImage(tick, 'PNG', 77, 231.75, 4, 4); //ReactionAbated4NA
 doc.text('REDCD mg', 91, 234.75); //ReactionAbated4ReducedDose
 doc.text('-', 117.5, 222.25); //ReactionReappeared1Yes
 doc.text('-', 117.5, 226.25); //ReactionReappeared2Yes
