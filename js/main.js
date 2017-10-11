@@ -199,4 +199,13 @@ doc.text('HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH', 109, 107.5); //HistoryLin
 doc.text('HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH', 109, 110.5); //HistoryLine7
 doc.text('HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH', 109, 113.5); //HistoryLine8
 doc.text('HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH', 109, 116.5); //HistoryLine9
+doc.rect(109.8, 124.3, 2, 2, 'F'); //SeriousDeath
+doc.text('DD/MM/YYYY', 136, 126.5); //SeriousDeathDate
+doc.rect(109.8, 128.25, 2, 2, 'F'); //SeriousLifeThreatening
+doc.rect(109.8, 132.25, 2, 2, 'F'); //SeriousHospital
+doc.rect(109.8, 139.75, 2, 2, 'F'); //SeriousDisability
+doc.rect(158.25, 124.3, 2, 2, 'F'); //SeriousCongenital
+doc.rect(158.25, 128.25, 2, 2, 'F'); //SeriousIntervention
+doc.rect(158.25, 139.75, 2, 2, 'F'); //SeriousOther
+doc.text('OTHEROTHE', 180.5, 141.25); //SeriousSpec
 doc.save('temp.pdf');
