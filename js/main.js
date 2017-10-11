@@ -4,7 +4,9 @@ doc.setFont("courier");
 doc.setFontSize(10);
 doc.text('NAMENAMENAMENAME', 12, 66); //Name
 doc.text('AGE', 60, 66); //Age
-doc.text('DD/MM/YYYY', 54, 73); //DOB
+doc.setFontSize(9);
+doc.text('DD/MM/YYYY', 55, 73.5); //DOB
+doc.setFontSize(10);
 doc.rect(86.35, 58, 2, 2, 'F'); //Male
 doc.rect(95.5, 58, 2, 2, 'F'); //Female
 doc.text('WTG', 89, 69); //Weight
