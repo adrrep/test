@@ -38,4 +38,20 @@ doc.text('BATCHB', 54, 198.5); //Batch3Line1
 doc.text('ATCHBA', 54, 201.5); //Batch3Line2
 doc.text('BATCHB', 54, 206.75); //Batch4Line1
 doc.text('ATCHBA', 54, 209.75); //Batch4Line2
+doc.text('DD/MM/', 69, 181); //ExpDate1Line1
+doc.text('YYYY', 71, 184); //ExpDate1Line2
+doc.text('DD/MM/', 69, 190); //ExpDate2Line1
+doc.text('YYYY', 71, 193); //ExpDate2Line2
+doc.text('DD/MM/', 69, 198.5); //ExpDate3Line1
+doc.text('YYYY', 71, 201.5); //ExpDate3Line2
+doc.text('DD/MM/', 69, 206.75); //ExpDate4Line1
+doc.text('YYYY', 71, 209.75); //ExpDate4Line2
+doc.text('DOSED', 85, 181); //Dose1Line1
+doc.text('mg', 88, 184); //Dose1Line2
+doc.text('DOSED', 85, 190); //Dose2Line1
+doc.text('mg', 88, 193); //Dose2Line2
+doc.text('DOSED', 85, 198.5); //Dose3Line1
+doc.text('mg', 88, 201.5); //Dose3Line2
+doc.text('DOSED', 85, 206.75); //Dose4Line1
+doc.text('mg', 88, 209.75); //Dose4Line2
 doc.save('temp.pdf');
