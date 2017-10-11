@@ -94,4 +94,24 @@ doc.text('REASONREASONREA', 167.5, 198.5); //Reason3Line1
 doc.text('REASONREASONREA', 167.5, 201.5); //Reason3Line2
 doc.text('REASONREASONREA', 167.5, 206.75); //Reason4Line1
 doc.text('REASONREASONREA', 167.5, 209.75); //Reason4Line2
+doc.addImage(tick, 'PNG', 31, 219.25, 4, 4); //ReactionAbated1Yes
+doc.addImage(tick, 'PNG', 46, 219.25, 4, 4); //ReactionAbated1No
+doc.addImage(tick, 'PNG', 62, 219.25, 4, 4); //ReactionAbated1Unknown
+doc.addImage(tick, 'PNG', 77, 219.25, 4, 4); //ReactionAbated1NA
+doc.text('REDCD mg', 91, 222.25); //ReactionAbated1ReducedDose
+doc.addImage(tick, 'PNG', 31, 223.25, 4, 4); //ReactionAbated2Yes
+doc.addImage(tick, 'PNG', 46, 223.25, 4, 4); //ReactionAbated2No
+doc.addImage(tick, 'PNG', 62, 223.25, 4, 4); //ReactionAbated2Unknown
+doc.addImage(tick, 'PNG', 77, 223.25, 4, 4); //ReactionAbated2NA
+doc.text('REDCD mg', 91, 226.25); //ReactionAbated2ReducedDose
+doc.addImage(tick, 'PNG', 31, 227.5, 4, 4); //ReactionAbated3Yes
+doc.addImage(tick, 'PNG', 46, 227.5, 4, 4); //ReactionAbated3No
+doc.addImage(tick, 'PNG', 62, 227.5, 4, 4); //ReactionAbated3Unknown
+doc.addImage(tick, 'PNG', 77, 227.5, 4, 4); //ReactionAbated3NA
+doc.text('REDCD mg', 91, 230.5); //ReactionAbated3ReducedDose
+doc.addImage(tick, 'PNG', 31, 231.5, 4, 4); //ReactionAbated4Yes
+doc.addImage(tick, 'PNG', 46, 231.5, 4, 4); //ReactionAbated4No
+doc.addImage(tick, 'PNG', 62, 231.5, 4, 4); //ReactionAbated4Unknown
+doc.addImage(tick, 'PNG', 77, 231.5, 4, 4); //ReactionAbated4NA
+doc.text('REDCD mg', 91, 234.75); //ReactionAbated4ReducedDose
 doc.save('temp.pdf');
