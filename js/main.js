@@ -3,7 +3,7 @@ doc.addImage(imgData, 'JPEG', 0, 0, 210, 297);
 doc.setFont("courier");
 doc.setFontSize(10);
 doc.text('NAMENAMENAMENAME', 12, 66); //Name
-doc.text('AGE', 60, 66); //Age
+doc.text('AGEAG', 58, 66.5); //Age
 doc.setFontSize(9);
 doc.text('DD/MM/YYYY', 55, 73.5); //DOB
 doc.setFontSize(10);
