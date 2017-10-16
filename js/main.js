@@ -217,4 +217,8 @@ doc.rect(158.3, 153.35, 2, 2, 'F'); //OutcomeOther
 doc.text('OTHEROTHE', 180.5, 155.25); //OutcomeSpec
 doc.addPage('a4', 'p'); //Add second page
 doc.addImage(form2, 'JPEG', 0, 0, 210, 297); //Set bg image
+doc.text('Dr. Anoop Singh', 110, 225);  //ReturnToName
+doc.text('Clinical Pharmacologist', 110, 229);  //ReturnToDesignation
+doc.text('VPS Rockland Hospital, New Delhi', 110, 233); //ReturnToAddress
+doc.text('anoop.singh@vpsrocklandhospitals.com', 110, 237); //ReturnToEmail
 doc.save('temp.pdf');
