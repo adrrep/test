@@ -1,5 +1,5 @@
 var doc = new jsPDF('p', 'mm', 'a4');
-doc.addImage(imgData, 'JPEG', 0, 0, 210, 297);
+doc.addImage(form, 'JPEG', 0, 0, 210, 297);
 doc.setFont("courier");
 doc.setFontSize(10);
 doc.text('NAMENAMENAMENAME', 12, 66); //Name
@@ -215,4 +215,6 @@ doc.rect(133.8, 153.35, 2, 2, 'F'); //OutcomeRecovered
 doc.rect(158.3, 149.5, 2, 2, 'F'); //OutcomeUnknown
 doc.rect(158.3, 153.35, 2, 2, 'F'); //OutcomeOther
 doc.text('OTHEROTHE', 180.5, 155.25); //OutcomeSpec
+doc.addPage('a4', 'p'); //Add second page
+doc.addImage(form2, 'JPEG', 0, 0, 210, 297); //Set bg image
 doc.save('temp.pdf');
